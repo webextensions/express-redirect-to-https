@@ -12,7 +12,6 @@ var redirectToHttps = function (options) {
             } else {
                 redirectToUrl = 'https://' + req.get('host') + req.originalUrl;
             }
-            console.log(redirectStatus);
             return res.redirect(redirectStatus, redirectToUrl);
         }
         next();
