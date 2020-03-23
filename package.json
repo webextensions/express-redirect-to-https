@@ -1,6 +1,6 @@
 {
   "name": "express-redirect-to-https",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Express middleware for redirecting \"http\" requests to \"https\" url path",
   "main": "index.js",
   "scripts": {
