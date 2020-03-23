@@ -2,7 +2,7 @@ var redirectToHttps = function (options) {
     options = options || {};
     var httpPort = options.httpPort,
         httpsPort = options.httpsPort,
-        redirectStatus = options.redirectStatus || 301;
+        redirectStatus = options.redirectStatus || 307;
     return function (req, res, next) {
         if (req.protocol === 'http') {
             try {
