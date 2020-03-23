@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/webextensions/express-redirect-to-https/issues"
   },
-  "homepage": "https://github.com/webextensions/express-redirect-to-https#readme"
+  "homepage": "https://github.com/webextensions/express-redirect-to-https#readme",
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  }
 }
